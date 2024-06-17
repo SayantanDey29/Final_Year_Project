@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Adding a light background color */
+    color: #333; /* Setting a default text color */
+}
+
+.container {
+    max-width: 800px; /* Increased max-width for better readability */
+    margin: 50px auto;
+    padding: 30px; /* Increased padding for better spacing */
+    border: 1px solid #ddd; /* Lighter border */
+    border-radius: 10px;
+    background-color: #fff; /* White background */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+textarea {
+    width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+    height: 150px; /* Increased height for better input area */
+    margin-bottom: 20px;
+    padding: 10px; /* Increased padding for better spacing */
+    resize: none;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px; /* Increased padding for better button size */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    font-weight: bold;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+.box{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px; /* Adjusted margin for spacing */
+    font-weight: bold;
+    padding: 5px; /* Added padding for better spacing */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.output {
+    margin-top: 30px; /* Increased margin for spacing */
+}
+
+.category {
+    margin-bottom: 15px; /* Adjusted margin for spacing */
+    font-weight: bold;
+    padding: 10px; /* Added padding for better spacing */
+    border: 3px solid black; /* Added border */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background color */
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suicidal Thoughts Classifier</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Machine Learning Based Classification of Suicidal Thoughts From Social Media Comments</h1>
+        <textarea id="comment" placeholder="Enter your comment here..."></textarea>
+        <button onclick="predict()">Predict</button>
+        <div id="prediction"></div>
+        <div class="output">
+            <div id="toxic"></div>
+            <div id="severe_toxic"></div>
+            <div id="obscene"></div>
+            <div id="threat"></div>
+            <div id="insult"></div>
+            <div id="identity_hate"></div>
+            <div id="graph"></div>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+
+
